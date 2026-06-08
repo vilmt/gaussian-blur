@@ -1,3 +1,5 @@
+![Thumbnail](thumbnail.png)
+
 ## Gaussian Blur CompositorEffect for Godot 4.6+
 
 This add-on implements the high-quality and optimized `GaussianBlurCompositorEffect`. The strength of the blur is controlled by a `sigma` parameter which dictates the width of the Gaussian kernel used. The compute shader adjusts the number of texture lookups according to the `sigma` value, meaning that a subtle blur is cheap, and a strong blur is more expensive.
